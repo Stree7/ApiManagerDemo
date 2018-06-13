@@ -15,7 +15,7 @@ profile
 DerivedData
 .idea/
 *.hmap
-ZStore.xcworkspace
+*.xcworkspace
 Podfile.lock
 
 #CocoaPods
