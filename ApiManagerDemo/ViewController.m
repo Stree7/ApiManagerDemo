@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "LGNetwork.h"
 #import "LGDemoService.h"
+
+
 @interface ViewController () <LGNetworkDelegate>
 @property (nonatomic, strong) LGApiManager *manager;
 
@@ -25,7 +27,7 @@
 }
 
 - (void)startRequest {
-    [self.manager start];
+//    [self.manager start];
 }
 
 
@@ -33,6 +35,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)rrTap:(UIButton *)sender {
+    [self.navigationController pushViewController:[NSClassFromString(@"LGRRViewController") new] animated:YES];
+}
+
+- (IBAction)songListTap:(UIButton *)sender {
+    [self.navigationController pushViewController:[NSClassFromString(@"LGSongListViewController") new] animated:YES];
+}
+
 
 #pragma mark - getters && setters
 - (LGApiManager *)manager {

@@ -22,12 +22,14 @@
 @property (nonatomic, copy, nonnull) NSString *urlStr;
 //Http method GET. POST. PUT. DELETE.
 @property (nonatomic, assign) LGNetworkMethod method;
+@property (nonatomic, weak, nullable) NSDictionary *headerFields;
 
 //Parameters that use for http request
 @property (nonatomic, copy, nonnull) NSDictionary *params;
 
 //The delegate use for receiving http response data
 @property (nonatomic, weak, nullable) id  <LGNetworkDelegate> delegate;
+
 
 //Http request header 基本认证
 @property (nonatomic, copy, nullable) NSString *baseAuth;

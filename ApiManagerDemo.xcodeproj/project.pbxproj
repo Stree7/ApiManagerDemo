@@ -18,6 +18,35 @@
 		99C0251320CFC258003EF0E1 /* LGURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0251220CFC258003EF0E1 /* LGURLResponse.m */; };
 		99C0251620CFD881003EF0E1 /* NSURLRequest+LGNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0251520CFD881003EF0E1 /* NSURLRequest+LGNetwork.m */; };
 		99C0251D20D0C704003EF0E1 /* LGDemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0251C20D0C704003EF0E1 /* LGDemoService.m */; };
+		99E42FB020DE229C006ED069 /* LGSongService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FAF20DE229C006ED069 /* LGSongService.m */; };
+		99E42FB320DE252B006ED069 /* LGSongListAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FB220DE252B006ED069 /* LGSongListAPIManager.m */; };
+		99E42FB720DE2737006ED069 /* LGSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FB620DE2737006ED069 /* LGSongListViewController.m */; };
+		99E42FBA20DE3207006ED069 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FB820DE3207006ED069 /* Song.m */; };
+		99E42FBD20DE3ADF006ED069 /* LGSongListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FBC20DE3ADF006ED069 /* LGSongListNode.m */; };
+		99E42FC120E099CC006ED069 /* LGRRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FC020E099CC006ED069 /* LGRRViewController.m */; };
+		99E42FCC20E09CC4006ED069 /* LGTodayChoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FC220E09CC2006ED069 /* LGTodayChoice.m */; };
+		99E42FCD20E09CC4006ED069 /* LGTopVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FC420E09CC3006ED069 /* LGTopVideo.m */; };
+		99E42FCE20E09CC4006ED069 /* LGSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FC720E09CC3006ED069 /* LGSection.m */; };
+		99E42FD020E09CC5006ED069 /* LGContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FC920E09CC4006ED069 /* LGContent.m */; };
+		99E42FD420E0BE2A006ED069 /* LGRRHomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FD320E0BE2A006ED069 /* LGRRHomeService.m */; };
+		99E42FD720E0BE6B006ED069 /* LGRRHomeApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FD620E0BE6B006ED069 /* LGRRHomeApiManager.m */; };
+		99E42FDF20E0CC8C006ED069 /* LGIconItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FDE20E0CC8C006ED069 /* LGIconItemNode.m */; };
+		99E42FE220E0D3B7006ED069 /* LGRRBeanCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FE120E0D3B7006ED069 /* LGRRBeanCellNode.m */; };
+		99E42FE520E0EFB0006ED069 /* LGSectionItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FE420E0EFB0006ED069 /* LGSectionItemNode.m */; };
+		99E42FE820E0FB9B006ED069 /* LGRRSectionCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FE720E0FB9B006ED069 /* LGRRSectionCellNode.m */; };
+		99E42FEB20E1E0AD006ED069 /* LGAdvertise.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FEA20E1E0AD006ED069 /* LGAdvertise.m */; };
+		99E42FEE20E1E22E006ED069 /* LGRRAdvertiseCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FED20E1E22E006ED069 /* LGRRAdvertiseCellNode.m */; };
+		99E42FF120E1ECB6006ED069 /* LGRRSectionFooterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FF020E1ECB6006ED069 /* LGRRSectionFooterNode.m */; };
+		99E42FF420E1EDEA006ED069 /* LGRRSectionFooterItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FF320E1EDEA006ED069 /* LGRRSectionFooterItemNode.m */; };
+		99E42FF920E1F1DA006ED069 /* ic_more_new_14x14_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E42FF720E1F1DA006ED069 /* ic_more_new_14x14_@2x.png */; };
+		99E42FFA20E1F1DA006ED069 /* ic_more_new_14x14_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E42FF820E1F1DA006ED069 /* ic_more_new_14x14_@3x.png */; };
+		99E42FFD20E1F854006ED069 /* ic_f5_14x14_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E42FFB20E1F854006ED069 /* ic_f5_14x14_@3x.png */; };
+		99E42FFE20E1F854006ED069 /* ic_f5_14x14_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E42FFC20E1F854006ED069 /* ic_f5_14x14_@2x.png */; };
+		99E4300120E20092006ED069 /* heng_default_375x211_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E42FFF20E20092006ED069 /* heng_default_375x211_@3x.png */; };
+		99E4300220E20092006ED069 /* heng_default_375x211_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E4300020E20092006ED069 /* heng_default_375x211_@2x.png */; };
+		99E4300520E20F3C006ED069 /* LGBannerTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E4300420E20F3C006ED069 /* LGBannerTop.m */; };
+		99E4300820E20FAB006ED069 /* LGBannerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E4300720E20FAB006ED069 /* LGBannerNode.m */; };
+		99E4300B20E21977006ED069 /* LGRRBannerCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E4300A20E21977006ED069 /* LGRRBannerCellNode.m */; };
 		BC772F5CEEB0C3F1AF4C1B2B /* libPods-ApiManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C58E5174186418047B1D07C7 /* libPods-ApiManagerDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +76,58 @@
 		99C0251A20D0B8F3003EF0E1 /* LGServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGServiceProtocol.h; sourceTree = "<group>"; };
 		99C0251B20D0C704003EF0E1 /* LGDemoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGDemoService.h; sourceTree = "<group>"; };
 		99C0251C20D0C704003EF0E1 /* LGDemoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGDemoService.m; sourceTree = "<group>"; };
+		99E42FAE20DE229C006ED069 /* LGSongService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSongService.h; sourceTree = "<group>"; };
+		99E42FAF20DE229C006ED069 /* LGSongService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSongService.m; sourceTree = "<group>"; };
+		99E42FB120DE252B006ED069 /* LGSongListApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSongListApiManager.h; sourceTree = "<group>"; };
+		99E42FB220DE252B006ED069 /* LGSongListAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSongListAPIManager.m; sourceTree = "<group>"; };
+		99E42FB520DE2737006ED069 /* LGSongListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSongListViewController.h; sourceTree = "<group>"; };
+		99E42FB620DE2737006ED069 /* LGSongListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSongListViewController.m; sourceTree = "<group>"; };
+		99E42FB820DE3207006ED069 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		99E42FB920DE3207006ED069 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		99E42FBB20DE3ADF006ED069 /* LGSongListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSongListNode.h; sourceTree = "<group>"; };
+		99E42FBC20DE3ADF006ED069 /* LGSongListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSongListNode.m; sourceTree = "<group>"; };
+		99E42FBF20E099CC006ED069 /* LGRRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRViewController.h; sourceTree = "<group>"; };
+		99E42FC020E099CC006ED069 /* LGRRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRViewController.m; sourceTree = "<group>"; };
+		99E42FC220E09CC2006ED069 /* LGTodayChoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTodayChoice.m; sourceTree = "<group>"; };
+		99E42FC320E09CC2006ED069 /* LGTopVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTopVideo.h; sourceTree = "<group>"; };
+		99E42FC420E09CC3006ED069 /* LGTopVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTopVideo.m; sourceTree = "<group>"; };
+		99E42FC620E09CC3006ED069 /* LGSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSection.h; sourceTree = "<group>"; };
+		99E42FC720E09CC3006ED069 /* LGSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSection.m; sourceTree = "<group>"; };
+		99E42FC920E09CC4006ED069 /* LGContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGContent.m; sourceTree = "<group>"; };
+		99E42FCA20E09CC4006ED069 /* LGTodayChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTodayChoice.h; sourceTree = "<group>"; };
+		99E42FCB20E09CC4006ED069 /* LGContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGContent.h; sourceTree = "<group>"; };
+		99E42FD220E0BE2A006ED069 /* LGRRHomeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRHomeService.h; sourceTree = "<group>"; };
+		99E42FD320E0BE2A006ED069 /* LGRRHomeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRHomeService.m; sourceTree = "<group>"; };
+		99E42FD520E0BE6B006ED069 /* LGRRHomeApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRHomeApiManager.h; sourceTree = "<group>"; };
+		99E42FD620E0BE6B006ED069 /* LGRRHomeApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRHomeApiManager.m; sourceTree = "<group>"; };
+		99E42FDD20E0CC8C006ED069 /* LGIconItemNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGIconItemNode.h; sourceTree = "<group>"; };
+		99E42FDE20E0CC8C006ED069 /* LGIconItemNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGIconItemNode.m; sourceTree = "<group>"; };
+		99E42FE020E0D3B7006ED069 /* LGRRBeanCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRBeanCellNode.h; sourceTree = "<group>"; };
+		99E42FE120E0D3B7006ED069 /* LGRRBeanCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRBeanCellNode.m; sourceTree = "<group>"; };
+		99E42FE320E0EFB0006ED069 /* LGSectionItemNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSectionItemNode.h; sourceTree = "<group>"; };
+		99E42FE420E0EFB0006ED069 /* LGSectionItemNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSectionItemNode.m; sourceTree = "<group>"; };
+		99E42FE620E0FB9B006ED069 /* LGRRSectionCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRSectionCellNode.h; sourceTree = "<group>"; };
+		99E42FE720E0FB9B006ED069 /* LGRRSectionCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRSectionCellNode.m; sourceTree = "<group>"; };
+		99E42FE920E1E0AC006ED069 /* LGAdvertise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAdvertise.h; sourceTree = "<group>"; };
+		99E42FEA20E1E0AD006ED069 /* LGAdvertise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAdvertise.m; sourceTree = "<group>"; };
+		99E42FEC20E1E22E006ED069 /* LGRRAdvertiseCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRAdvertiseCellNode.h; sourceTree = "<group>"; };
+		99E42FED20E1E22E006ED069 /* LGRRAdvertiseCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRAdvertiseCellNode.m; sourceTree = "<group>"; };
+		99E42FEF20E1ECB6006ED069 /* LGRRSectionFooterNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRSectionFooterNode.h; sourceTree = "<group>"; };
+		99E42FF020E1ECB6006ED069 /* LGRRSectionFooterNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRSectionFooterNode.m; sourceTree = "<group>"; };
+		99E42FF220E1EDEA006ED069 /* LGRRSectionFooterItemNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRSectionFooterItemNode.h; sourceTree = "<group>"; };
+		99E42FF320E1EDEA006ED069 /* LGRRSectionFooterItemNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRSectionFooterItemNode.m; sourceTree = "<group>"; };
+		99E42FF720E1F1DA006ED069 /* ic_more_new_14x14_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_more_new_14x14_@2x.png"; sourceTree = "<group>"; };
+		99E42FF820E1F1DA006ED069 /* ic_more_new_14x14_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_more_new_14x14_@3x.png"; sourceTree = "<group>"; };
+		99E42FFB20E1F854006ED069 /* ic_f5_14x14_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_f5_14x14_@3x.png"; sourceTree = "<group>"; };
+		99E42FFC20E1F854006ED069 /* ic_f5_14x14_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_f5_14x14_@2x.png"; sourceTree = "<group>"; };
+		99E42FFF20E20092006ED069 /* heng_default_375x211_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heng_default_375x211_@3x.png"; sourceTree = "<group>"; };
+		99E4300020E20092006ED069 /* heng_default_375x211_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heng_default_375x211_@2x.png"; sourceTree = "<group>"; };
+		99E4300320E20F3C006ED069 /* LGBannerTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBannerTop.h; sourceTree = "<group>"; };
+		99E4300420E20F3C006ED069 /* LGBannerTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBannerTop.m; sourceTree = "<group>"; };
+		99E4300620E20FAB006ED069 /* LGBannerNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBannerNode.h; sourceTree = "<group>"; };
+		99E4300720E20FAB006ED069 /* LGBannerNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBannerNode.m; sourceTree = "<group>"; };
+		99E4300920E21977006ED069 /* LGRRBannerCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRRBannerCellNode.h; sourceTree = "<group>"; };
+		99E4300A20E21977006ED069 /* LGRRBannerCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRRBannerCellNode.m; sourceTree = "<group>"; };
 		C58E5174186418047B1D07C7 /* libPods-ApiManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +169,8 @@
 				99C024F420CFA3A1003EF0E1 /* AppDelegate.m */,
 				99C024F620CFA3A1003EF0E1 /* ViewController.h */,
 				99C024F720CFA3A1003EF0E1 /* ViewController.m */,
+				99E42FBE20E0997F006ED069 /* RR */,
+				99E42FB420DE2536006ED069 /* LGMusic */,
 				99C0251B20D0C704003EF0E1 /* LGDemoService.h */,
 				99C0251C20D0C704003EF0E1 /* LGDemoService.m */,
 				99C024F920CFA3A1003EF0E1 /* Main.storyboard */,
@@ -115,6 +198,136 @@
 				99C0251220CFC258003EF0E1 /* LGURLResponse.m */,
 			);
 			path = LGNetwork;
+			sourceTree = "<group>";
+		};
+		99E42FB420DE2536006ED069 /* LGMusic */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FDB20E0CA13006ED069 /* ApiManager */,
+				99E42FDA20E0CA01006ED069 /* View */,
+				99E42FD920E0C9FC006ED069 /* Data */,
+				99E42FB520DE2737006ED069 /* LGSongListViewController.h */,
+				99E42FB620DE2737006ED069 /* LGSongListViewController.m */,
+			);
+			path = LGMusic;
+			sourceTree = "<group>";
+		};
+		99E42FBE20E0997F006ED069 /* RR */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FF520E1F1C5006ED069 /* Resources */,
+				99E42FDC20E0CA25006ED069 /* View */,
+				99E42FD820E0C9CE006ED069 /* Data */,
+				99E42FD120E0BDF1006ED069 /* ApiManager */,
+				99E42FBF20E099CC006ED069 /* LGRRViewController.h */,
+				99E42FC020E099CC006ED069 /* LGRRViewController.m */,
+			);
+			path = RR;
+			sourceTree = "<group>";
+		};
+		99E42FD120E0BDF1006ED069 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FD220E0BE2A006ED069 /* LGRRHomeService.h */,
+				99E42FD320E0BE2A006ED069 /* LGRRHomeService.m */,
+				99E42FD520E0BE6B006ED069 /* LGRRHomeApiManager.h */,
+				99E42FD620E0BE6B006ED069 /* LGRRHomeApiManager.m */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		99E42FD820E0C9CE006ED069 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				99E4300320E20F3C006ED069 /* LGBannerTop.h */,
+				99E4300420E20F3C006ED069 /* LGBannerTop.m */,
+				99E42FE920E1E0AC006ED069 /* LGAdvertise.h */,
+				99E42FEA20E1E0AD006ED069 /* LGAdvertise.m */,
+				99E42FCB20E09CC4006ED069 /* LGContent.h */,
+				99E42FC920E09CC4006ED069 /* LGContent.m */,
+				99E42FC620E09CC3006ED069 /* LGSection.h */,
+				99E42FC720E09CC3006ED069 /* LGSection.m */,
+				99E42FCA20E09CC4006ED069 /* LGTodayChoice.h */,
+				99E42FC220E09CC2006ED069 /* LGTodayChoice.m */,
+				99E42FC320E09CC2006ED069 /* LGTopVideo.h */,
+				99E42FC420E09CC3006ED069 /* LGTopVideo.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		99E42FD920E0C9FC006ED069 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FB920DE3207006ED069 /* Song.h */,
+				99E42FB820DE3207006ED069 /* Song.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		99E42FDA20E0CA01006ED069 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FBB20DE3ADF006ED069 /* LGSongListNode.h */,
+				99E42FBC20DE3ADF006ED069 /* LGSongListNode.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99E42FDB20E0CA13006ED069 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FAE20DE229C006ED069 /* LGSongService.h */,
+				99E42FAF20DE229C006ED069 /* LGSongService.m */,
+				99E42FB120DE252B006ED069 /* LGSongListApiManager.h */,
+				99E42FB220DE252B006ED069 /* LGSongListAPIManager.m */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		99E42FDC20E0CA25006ED069 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FDD20E0CC8C006ED069 /* LGIconItemNode.h */,
+				99E42FDE20E0CC8C006ED069 /* LGIconItemNode.m */,
+				99E42FE020E0D3B7006ED069 /* LGRRBeanCellNode.h */,
+				99E42FE120E0D3B7006ED069 /* LGRRBeanCellNode.m */,
+				99E42FEC20E1E22E006ED069 /* LGRRAdvertiseCellNode.h */,
+				99E42FED20E1E22E006ED069 /* LGRRAdvertiseCellNode.m */,
+				99E42FE320E0EFB0006ED069 /* LGSectionItemNode.h */,
+				99E42FE420E0EFB0006ED069 /* LGSectionItemNode.m */,
+				99E42FEF20E1ECB6006ED069 /* LGRRSectionFooterNode.h */,
+				99E42FF020E1ECB6006ED069 /* LGRRSectionFooterNode.m */,
+				99E42FF220E1EDEA006ED069 /* LGRRSectionFooterItemNode.h */,
+				99E42FF320E1EDEA006ED069 /* LGRRSectionFooterItemNode.m */,
+				99E42FE620E0FB9B006ED069 /* LGRRSectionCellNode.h */,
+				99E42FE720E0FB9B006ED069 /* LGRRSectionCellNode.m */,
+				99E4300620E20FAB006ED069 /* LGBannerNode.h */,
+				99E4300720E20FAB006ED069 /* LGBannerNode.m */,
+				99E4300920E21977006ED069 /* LGRRBannerCellNode.h */,
+				99E4300A20E21977006ED069 /* LGRRBannerCellNode.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99E42FF520E1F1C5006ED069 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FF620E1F1D0006ED069 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99E42FF620E1F1D0006ED069 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99E4300020E20092006ED069 /* heng_default_375x211_@2x.png */,
+				99E42FFF20E20092006ED069 /* heng_default_375x211_@3x.png */,
+				99E42FFC20E1F854006ED069 /* ic_f5_14x14_@2x.png */,
+				99E42FFB20E1F854006ED069 /* ic_f5_14x14_@3x.png */,
+				99E42FF720E1F1DA006ED069 /* ic_more_new_14x14_@2x.png */,
+				99E42FF820E1F1DA006ED069 /* ic_more_new_14x14_@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		BD346C2040C2B88C895EC808 /* Frameworks */ = {
@@ -196,9 +409,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E42FFE20E1F854006ED069 /* ic_f5_14x14_@2x.png in Resources */,
+				99E4300220E20092006ED069 /* heng_default_375x211_@2x.png in Resources */,
+				99E4300120E20092006ED069 /* heng_default_375x211_@3x.png in Resources */,
 				99C0250020CFA3A1003EF0E1 /* LaunchScreen.storyboard in Resources */,
+				99E42FF920E1F1DA006ED069 /* ic_more_new_14x14_@2x.png in Resources */,
 				99C024FD20CFA3A1003EF0E1 /* Assets.xcassets in Resources */,
+				99E42FFD20E1F854006ED069 /* ic_f5_14x14_@3x.png in Resources */,
 				99C024FB20CFA3A1003EF0E1 /* Main.storyboard in Resources */,
+				99E42FFA20E1F1DA006ED069 /* ic_more_new_14x14_@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +479,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E42FDF20E0CC8C006ED069 /* LGIconItemNode.m in Sources */,
+				99E42FBA20DE3207006ED069 /* Song.m in Sources */,
+				99E42FD420E0BE2A006ED069 /* LGRRHomeService.m in Sources */,
+				99E42FB020DE229C006ED069 /* LGSongService.m in Sources */,
+				99E42FEB20E1E0AD006ED069 /* LGAdvertise.m in Sources */,
+				99E42FD720E0BE6B006ED069 /* LGRRHomeApiManager.m in Sources */,
+				99E42FEE20E1E22E006ED069 /* LGRRAdvertiseCellNode.m in Sources */,
+				99E42FCC20E09CC4006ED069 /* LGTodayChoice.m in Sources */,
 				99C024F820CFA3A1003EF0E1 /* ViewController.m in Sources */,
+				99E42FCD20E09CC4006ED069 /* LGTopVideo.m in Sources */,
+				99E42FF420E1EDEA006ED069 /* LGRRSectionFooterItemNode.m in Sources */,
+				99E42FBD20DE3ADF006ED069 /* LGSongListNode.m in Sources */,
+				99E42FD020E09CC5006ED069 /* LGContent.m in Sources */,
 				99C0251320CFC258003EF0E1 /* LGURLResponse.m in Sources */,
+				99E4300520E20F3C006ED069 /* LGBannerTop.m in Sources */,
+				99E42FE520E0EFB0006ED069 /* LGSectionItemNode.m in Sources */,
+				99E4300820E20FAB006ED069 /* LGBannerNode.m in Sources */,
+				99E42FB320DE252B006ED069 /* LGSongListAPIManager.m in Sources */,
 				99C0250C20CFA532003EF0E1 /* LGApiManager.m in Sources */,
+				99E42FE820E0FB9B006ED069 /* LGRRSectionCellNode.m in Sources */,
+				99E42FF120E1ECB6006ED069 /* LGRRSectionFooterNode.m in Sources */,
 				99C0251D20D0C704003EF0E1 /* LGDemoService.m in Sources */,
+				99E42FCE20E09CC4006ED069 /* LGSection.m in Sources */,
 				99C0250320CFA3A1003EF0E1 /* main.m in Sources */,
+				99E4300B20E21977006ED069 /* LGRRBannerCellNode.m in Sources */,
 				99C024F520CFA3A1003EF0E1 /* AppDelegate.m in Sources */,
 				99C0251620CFD881003EF0E1 /* NSURLRequest+LGNetwork.m in Sources */,
+				99E42FC120E099CC006ED069 /* LGRRViewController.m in Sources */,
+				99E42FB720DE2737006ED069 /* LGSongListViewController.m in Sources */,
+				99E42FE220E0D3B7006ED069 /* LGRRBeanCellNode.m in Sources */,
 				99C0251020CFC218003EF0E1 /* LGApiProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

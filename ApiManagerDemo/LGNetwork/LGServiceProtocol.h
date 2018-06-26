@@ -28,6 +28,9 @@ static NSString *const LGServiceMethodKey = @"LGServiceMethodKey";
 - (NSString *)method:(NSString *)serviceIdentifier;
 - (NSString *)urlTail:(NSString *)serviceIdentifier;
 
+@optional
+@property (nonatomic, weak, nullable) NSDictionary *headerFields;
+
 @end
 
 #endif /* LGServiceProtocol_h */

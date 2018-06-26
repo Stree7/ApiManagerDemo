@@ -30,8 +30,6 @@ NSString *const ServiceOrderDetailIdentifier = @"";
                      LGServiceUrlKey:@"/monolithic/api/v1/orders/getServiceOrderDetail/:orderId",
                      LGServiceMethodKey:@"GET"
                      },
-             
-             
              };
 }
 

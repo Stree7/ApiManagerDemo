@@ -6,5 +6,7 @@ target 'ApiManagerDemo' do
   # use_frameworks!
   # Pods for ApiManagerDemo
   pod 'AFNetworking'
+  pod 'Texture'
+
 
 end

@@ -66,6 +66,23 @@
 
 
 #pragma mark - setters && getters
+- (void)setService:(id<LGServiceProtocol>)service {
+    _service = service;
+    if ([service respondsToSelector:@selector(headerFields)]) {
+        self.headerFields = service.headerFields;
+    }
+}
+
+- (void)setHeaderFields:(NSDictionary *)headerFields {
+    if (!headerFields) {
+        return;
+    }
+    _headerFields = headerFields;
+    for (NSString *key in headerFields.allKeys) {
+        [self.afManager.requestSerializer setValue:headerFields[key] forHTTPHeaderField:key];
+    }
+}
+
 - (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
     //1.设置请求超时
     [_afManager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
