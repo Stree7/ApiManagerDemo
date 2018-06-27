@@ -7,13 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "LGNetwork.h"
-#import "LGDemoService.h"
 
 
-@interface ViewController () <LGNetworkDelegate>
-@property (nonatomic, strong) LGApiManager *manager;
-
+@interface ViewController ()
+@property (nonatomic, strong) NSArray *dataArray;
 @end
 
 @implementation ViewController
@@ -21,19 +18,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    
-    [self startRequest];
-}
-
-- (void)startRequest {
-//    [self.manager start];
+    self.tableView.rowHeight = 100;
+    self.tableView.estimatedSectionFooterHeight = DBL_EPSILON;
+    self.tableView.estimatedSectionHeaderHeight = DBL_EPSILON;
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - UITableView Delegate & Datasource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"UITableViewCell"];
+    cell.imageView.image = [UIImage imageNamed:self.dataArray[indexPath.row][@"icon"]];
+    cell.textLabel.text = self.dataArray[indexPath.row][@"name"];
+    CGRect frame = cell.imageView.frame;
+    frame.size = CGSizeMake(40, 40);
+    cell.imageView.frame = frame;
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.navigationController pushViewController:[NSClassFromString(self.dataArray[indexPath.row][@"target"]) new] animated:YES];
 }
 
 
@@ -46,27 +58,22 @@
 }
 
 
-#pragma mark - getters && setters
-- (LGApiManager *)manager {
-    if (!_manager) {
-        _manager = [LGApiManager new];
-        _manager.delegate = self;
-        _manager.service = [LGDemoService new];
-        _manager.serviceIdentifier = ServiceCategoryFirstLevelIdentifier;
-        _manager.params =@{@"serviceType":@"INSTALL",@"storeId":@"997787176116850690"};
-        _manager.token = @"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsibW9ub2xpdGhpYy1hcHAiXSwidXNlcl9uYW1lIjoiMTM1OTA1ODkwNzgiLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNTI4OTQyOTU2LCJhdXRob3JpdGllcyI6WyJST0xFX1NUT1JFIl0sImp0aSI6ImI1ZTNhYjliLTQ1YmYtNDRmMC1hNTM2LTVhNmQ5NmMxNTc1YiIsImNsaWVudF9pZCI6ImFwcC1jbGllbnQifQ.fb3eyMKna2VNXEhXKQWu1gSuqoIYoW64Mp60kDHg4eg";
-//        _manager.requestSerializer = LGNetworkJSONRequestSerializer;
+#pragma mark - Getters
+- (NSArray *)dataArray {
+    if (!_dataArray) {
+        _dataArray = @[
+                       @{
+                           @"target":@"LGRRViewController",
+                           @"name":@"人人视频",
+                           @"icon":@"rr_AppIcon60x60",
+                           },
+                       @{
+                           @"target":@"LGSongListViewController",
+                           @"name":@"龙珠音乐",
+                           @"icon":@"lg_app_60",
+                           },
+                       ];
     }
-    return _manager;
-}
-
-#pragma mark - LGNetworkDelegate
-//1.成功回调的方法
-- (void)managerCallAPIDidSuccess:(LGApiManager * _Nonnull)manager {
-    
-}
-//2.失败回调的方法
-- (void)managerCallAPIDidFailed:(LGApiManager * _Nonnull)manager {
-    
+    return _dataArray;
 }
 @end

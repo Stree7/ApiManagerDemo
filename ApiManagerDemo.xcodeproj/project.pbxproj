@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99AF7D3D20E35D0E0063D026 /* rr_AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99AF7D3B20E35D0D0063D026 /* rr_AppIcon60x60@2x.png */; };
+		99AF7D3E20E35D0E0063D026 /* rr_AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99AF7D3C20E35D0D0063D026 /* rr_AppIcon60x60@3x.png */; };
+		99AF7D4320E365810063D026 /* lg_app_60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99AF7D4120E365810063D026 /* lg_app_60@3x.png */; };
+		99AF7D4420E365810063D026 /* lg_app_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99AF7D4220E365810063D026 /* lg_app_60@2x.png */; };
 		99C024F520CFA3A1003EF0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C024F420CFA3A1003EF0E1 /* AppDelegate.m */; };
 		99C024F820CFA3A1003EF0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C024F720CFA3A1003EF0E1 /* ViewController.m */; };
 		99C024FB20CFA3A1003EF0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C024F920CFA3A1003EF0E1 /* Main.storyboard */; };
@@ -17,7 +21,6 @@
 		99C0251020CFC218003EF0E1 /* LGApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0250F20CFC218003EF0E1 /* LGApiProxy.m */; };
 		99C0251320CFC258003EF0E1 /* LGURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0251220CFC258003EF0E1 /* LGURLResponse.m */; };
 		99C0251620CFD881003EF0E1 /* NSURLRequest+LGNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0251520CFD881003EF0E1 /* NSURLRequest+LGNetwork.m */; };
-		99C0251D20D0C704003EF0E1 /* LGDemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0251C20D0C704003EF0E1 /* LGDemoService.m */; };
 		99E42FB020DE229C006ED069 /* LGSongService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FAF20DE229C006ED069 /* LGSongService.m */; };
 		99E42FB320DE252B006ED069 /* LGSongListAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FB220DE252B006ED069 /* LGSongListAPIManager.m */; };
 		99E42FB720DE2737006ED069 /* LGSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E42FB620DE2737006ED069 /* LGSongListViewController.m */; };
@@ -53,6 +56,10 @@
 /* Begin PBXFileReference section */
 		40279A9D90EB55AE0E38F3B1 /* Pods-ApiManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiManagerDemo/Pods-ApiManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8ADB8FFADEFDB260A0C64144 /* Pods-ApiManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiManagerDemo/Pods-ApiManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		99AF7D3B20E35D0D0063D026 /* rr_AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rr_AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		99AF7D3C20E35D0D0063D026 /* rr_AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rr_AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		99AF7D4120E365810063D026 /* lg_app_60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lg_app_60@3x.png"; sourceTree = "<group>"; };
+		99AF7D4220E365810063D026 /* lg_app_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lg_app_60@2x.png"; sourceTree = "<group>"; };
 		99C024F020CFA3A1003EF0E1 /* ApiManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C024F320CFA3A1003EF0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99C024F420CFA3A1003EF0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,8 +81,6 @@
 		99C0251520CFD881003EF0E1 /* NSURLRequest+LGNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+LGNetwork.m"; sourceTree = "<group>"; };
 		99C0251720CFDB0E003EF0E1 /* LGNetworkDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGNetworkDefines.h; sourceTree = "<group>"; };
 		99C0251A20D0B8F3003EF0E1 /* LGServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGServiceProtocol.h; sourceTree = "<group>"; };
-		99C0251B20D0C704003EF0E1 /* LGDemoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGDemoService.h; sourceTree = "<group>"; };
-		99C0251C20D0C704003EF0E1 /* LGDemoService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGDemoService.m; sourceTree = "<group>"; };
 		99E42FAE20DE229C006ED069 /* LGSongService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSongService.h; sourceTree = "<group>"; };
 		99E42FAF20DE229C006ED069 /* LGSongService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSongService.m; sourceTree = "<group>"; };
 		99E42FB120DE252B006ED069 /* LGSongListApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSongListApiManager.h; sourceTree = "<group>"; };
@@ -143,6 +148,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99AF7D3F20E3656A0063D026 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99AF7D4020E365750063D026 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99AF7D4020E365750063D026 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99AF7D4220E365810063D026 /* lg_app_60@2x.png */,
+				99AF7D4120E365810063D026 /* lg_app_60@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		99AF7D4520E366A50063D026 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				99E42FBE20E0997F006ED069 /* RR */,
+				99E42FB420DE2536006ED069 /* LGMusic */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
 		99C024E720CFA3A1003EF0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -164,15 +195,12 @@
 		99C024F220CFA3A1003EF0E1 /* ApiManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				99AF7D4520E366A50063D026 /* Demos */,
 				99C0250920CFA4D8003EF0E1 /* LGNetwork */,
 				99C024F320CFA3A1003EF0E1 /* AppDelegate.h */,
 				99C024F420CFA3A1003EF0E1 /* AppDelegate.m */,
 				99C024F620CFA3A1003EF0E1 /* ViewController.h */,
 				99C024F720CFA3A1003EF0E1 /* ViewController.m */,
-				99E42FBE20E0997F006ED069 /* RR */,
-				99E42FB420DE2536006ED069 /* LGMusic */,
-				99C0251B20D0C704003EF0E1 /* LGDemoService.h */,
-				99C0251C20D0C704003EF0E1 /* LGDemoService.m */,
 				99C024F920CFA3A1003EF0E1 /* Main.storyboard */,
 				99C024FC20CFA3A1003EF0E1 /* Assets.xcassets */,
 				99C024FE20CFA3A1003EF0E1 /* LaunchScreen.storyboard */,
@@ -203,6 +231,7 @@
 		99E42FB420DE2536006ED069 /* LGMusic */ = {
 			isa = PBXGroup;
 			children = (
+				99AF7D3F20E3656A0063D026 /* Resources */,
 				99E42FDB20E0CA13006ED069 /* ApiManager */,
 				99E42FDA20E0CA01006ED069 /* View */,
 				99E42FD920E0C9FC006ED069 /* Data */,
@@ -320,6 +349,8 @@
 		99E42FF620E1F1D0006ED069 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				99AF7D3B20E35D0D0063D026 /* rr_AppIcon60x60@2x.png */,
+				99AF7D3C20E35D0D0063D026 /* rr_AppIcon60x60@3x.png */,
 				99E4300020E20092006ED069 /* heng_default_375x211_@2x.png */,
 				99E42FFF20E20092006ED069 /* heng_default_375x211_@3x.png */,
 				99E42FFC20E1F854006ED069 /* ic_f5_14x14_@2x.png */,
@@ -409,10 +440,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AF7D3E20E35D0E0063D026 /* rr_AppIcon60x60@3x.png in Resources */,
+				99AF7D3D20E35D0E0063D026 /* rr_AppIcon60x60@2x.png in Resources */,
 				99E42FFE20E1F854006ED069 /* ic_f5_14x14_@2x.png in Resources */,
 				99E4300220E20092006ED069 /* heng_default_375x211_@2x.png in Resources */,
 				99E4300120E20092006ED069 /* heng_default_375x211_@3x.png in Resources */,
 				99C0250020CFA3A1003EF0E1 /* LaunchScreen.storyboard in Resources */,
+				99AF7D4420E365810063D026 /* lg_app_60@2x.png in Resources */,
+				99AF7D4320E365810063D026 /* lg_app_60@3x.png in Resources */,
 				99E42FF920E1F1DA006ED069 /* ic_more_new_14x14_@2x.png in Resources */,
 				99C024FD20CFA3A1003EF0E1 /* Assets.xcassets in Resources */,
 				99E42FFD20E1F854006ED069 /* ic_f5_14x14_@3x.png in Resources */,
@@ -500,7 +535,6 @@
 				99C0250C20CFA532003EF0E1 /* LGApiManager.m in Sources */,
 				99E42FE820E0FB9B006ED069 /* LGRRSectionCellNode.m in Sources */,
 				99E42FF120E1ECB6006ED069 /* LGRRSectionFooterNode.m in Sources */,
-				99C0251D20D0C704003EF0E1 /* LGDemoService.m in Sources */,
 				99E42FCE20E09CC4006ED069 /* LGSection.m in Sources */,
 				99C0250320CFA3A1003EF0E1 /* main.m in Sources */,
 				99E4300B20E21977006ED069 /* LGRRBannerCellNode.m in Sources */,

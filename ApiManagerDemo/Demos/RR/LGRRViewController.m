@@ -101,24 +101,34 @@
     };
 }*/
 
-- (ASCellNode *)tableNode:(ASTableNode *)tableNode nodeForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (ASCellNodeBlock)tableNode:(ASTableNode *)tableNode nodeBlockForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == 0) {
-        LGRRBeanCellNode *beanCellNode = [[LGRRBeanCellNode alloc] initWithModel:self.todayChoice.littleBean];
-        return beanCellNode;
+        return ^{
+            LGRRBeanCellNode *beanCellNode = [[LGRRBeanCellNode alloc] initWithModel:self.todayChoice.littleBean];
+            return beanCellNode;
+        };
     }else if (indexPath.section == 1) {
-        NSUInteger row = indexPath.row;
-        LGSection *section = self.todayChoice.sections[row];
-        if ([section.sectionType isEqualToString:@"ALBUM"]||[section.sectionType isEqualToString:@"VIDEO"]) {
-            LGRRSectionCellNode *videoCellNode = [[LGRRSectionCellNode alloc] initWithModel:section];
-            return videoCellNode;
-        }else if ([section.sectionType isEqualToString:@"AD"]) {
-            LGRRAdvertiseCellNode *adCellNode = [[LGRRAdvertiseCellNode alloc] initWithModel:section];
-            return adCellNode;
-        }
-        return [ASCellNode new];
+            NSUInteger row = indexPath.row;
+            LGSection *section = self.todayChoice.sections[row];
+            if ([section.sectionType isEqualToString:@"ALBUM"]||[section.sectionType isEqualToString:@"VIDEO"]) {
+                 return ^{
+                LGRRSectionCellNode *videoCellNode = [[LGRRSectionCellNode alloc] initWithModel:section];
+                return videoCellNode;
+                 };
+            }else if ([section.sectionType isEqualToString:@"AD"]) {
+                 return ^{
+                LGRRAdvertiseCellNode *adCellNode = [[LGRRAdvertiseCellNode alloc] initWithModel:section];
+                return adCellNode;
+                 };
+            }
+         return ^{
+            return [ASCellNode new];
+        };
     }
-    return [ASCellNode new];;
+    return ^{
+        return [ASCellNode new];
+    };
 }
 
 - (ASSizeRange)tableView:(ASTableView *)tableView constrainedSizeForRowAtIndexPath:(NSIndexPath *)indexPath {

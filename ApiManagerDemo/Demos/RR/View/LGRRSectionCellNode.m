@@ -50,7 +50,7 @@
 - (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize {
     _footerNode.style.preferredSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, _footerNode.preferHeight);
     ASInsetLayoutSpec *titleInsetSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(20, 18, 18, 18) child:_titleNode];
-    ASStackLayoutSpec *horizontalVideoSpec = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:3 justifyContent:ASStackLayoutJustifyContentSpaceBetween alignItems:ASStackLayoutAlignItemsCenter flexWrap:ASStackLayoutFlexWrapWrap alignContent:ASStackLayoutAlignContentCenter lineSpacing:9 children:self.videoNodes];
+    ASStackLayoutSpec *horizontalVideoSpec = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:3 justifyContent:ASStackLayoutJustifyContentSpaceBetween alignItems:ASStackLayoutAlignItemsStart flexWrap:ASStackLayoutFlexWrapWrap alignContent:ASStackLayoutAlignContentStart lineSpacing:9 children:self.videoNodes];
     ASInsetLayoutSpec *footerInsetSpec = [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 0, 0, 0) child:_footerNode];
     ASStackLayoutSpec *verticalSpec = [ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionVertical spacing:0 justifyContent:ASStackLayoutJustifyContentCenter alignItems:ASStackLayoutAlignItemsStart children:@[titleInsetSpec,horizontalVideoSpec,footerInsetSpec]];
     return verticalSpec;

@@ -27,7 +27,7 @@
     LGAdvertise *ad = self.section.content.firstObject;
     _imageNode = [ASNetworkImageNode new];
     _imageNode.URL = [NSURL URLWithString:ad.imageUrl];
-    _imageNode.placeholderFadeDuration = 0.2;
+    _imageNode.placeholderFadeDuration = 0.1;
     _imageNode.placeholderEnabled = YES;
     _imageNode.contentMode = UIViewContentModeScaleAspectFill;
     _imageNode.clipsToBounds = YES;
