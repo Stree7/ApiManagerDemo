@@ -16,9 +16,10 @@
 On Xcode 15 and earlier, you can use
 ```
 xcrun simctl runtime add "~/Downloads/<simulator-runtime-name>.dmg”
-
+```
 On Xcode 16:
 ```
     xcode-select -s /Applications/Xcode-beta.app
     xcodebuild -runFirstLaunch
     xcodebuild -importPlatform "~/Downloads/watchOS 9 beta Simulator Runtime.dmg"
+```
